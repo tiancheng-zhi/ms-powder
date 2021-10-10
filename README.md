@@ -1,6 +1,7 @@
 # Multispectral Imaging for Fine-Grained Recognition of Powders on Complex Backgrounds
 
 
+
 [Tiancheng Zhi](http://cs.cmu.edu/~tzhi), [Bernardo R. Pires](http://www.andrew.cmu.edu/user/bpires/), [Martial Hebert](http://www.cs.cmu.edu/~hebert/), [Srinivasa G. Narasimhan](http://www.cs.cmu.edu/~srinivas/)
 
 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019. 
@@ -89,7 +90,7 @@ python test_merge.py --ckpt model.pth    # Test on dataset merging Scene-test an
 ```
 
 ### Pretrained model
-Download [pretrained.pth](https://drive.google.com/file/d/1RcNNbFX2CG63FaSZWzsLBzPW31w4pmj6/view?usp=sharing), put it in "src" directory, and test it with:
+Download [pretrained.pth](http://platformpgh.cs.cmu.edu/tzhi/SWIRPowderRelease/pretrained.pth), put it in "src" directory, and test it with:
 ```
 python test_merge.py --ckpt pretrained.pth
 ```
