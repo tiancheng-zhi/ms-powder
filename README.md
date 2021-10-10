@@ -1,5 +1,6 @@
 # Multispectral Imaging for Fine-Grained Recognition of Powders on Complex Backgrounds
 
+
 [Tiancheng Zhi](http://cs.cmu.edu/~tzhi), [Bernardo R. Pires](http://www.andrew.cmu.edu/user/bpires/), [Martial Hebert](http://www.cs.cmu.edu/~hebert/), [Srinivasa G. Narasimhan](http://www.cs.cmu.edu/~srinivas/)
 
 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019. 
@@ -19,7 +20,7 @@ IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019.
 - Visdom
 
 ## Download "SWIRPowder" Dataset
-Download the ["data" folder](https://drive.google.com/open?id=1TmWwUSHIMpDdJlNjFu57aTkkD9r_Wxah), untar all subfolders, and put it in the repo root directory.
+Download the ["data" folder](http://platformpgh.cs.cmu.edu/tzhi/SWIRPowderRelease/data/), and put it in the repo root directory.
 See "data/readme.txt" for description.
 
 ## Calibarate Attenuation Parameter
@@ -45,7 +46,7 @@ sh create_real_hdf5.sh
 ```
 
 ### Prepare synthetic data
-Download the ["synthetic" folder](https://drive.google.com/drive/folders/16hx4j6FwEkDSjTljxedNnKA6-F8SV6SZ?usp=sharing) and put it in the repo root directory.
+Download the ["synthetic" folder](http://platformpgh.cs.cmu.edu/tzhi/SWIRPowderRelease/synthetic/) and put it in the repo root directory.
 
 ### Train on synthetic powder on synthetic background
 In "src" directory, run:
